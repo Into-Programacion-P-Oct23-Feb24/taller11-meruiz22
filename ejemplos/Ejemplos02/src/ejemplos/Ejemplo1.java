@@ -34,11 +34,13 @@ public class Ejemplo1 {
     }
     
     public static double obtenerPromedioDatos(int [] datos){
-        int suma = 0;
+        int suma =obtenerSumaDatos(datos);
+        /* Coma ya teniamos una funcion encargada de sumar los datos solo creamos 
+        una variable y le damos el valor que de la que la funcion */
         double promedio;
-        for (int i = 0; i < datos.length; i++) {
+        /*for (int i = 0; i < datos.length; i++) {
             suma = suma + datos[i];
-        }
+        }*/
         promedio = (double)suma/datos.length;
         return promedio;
     }

@@ -43,6 +43,7 @@ public class Ejemplo2 {
             }
         }
         return valor;
+        // Es un proceso de busqueda
     }
 
 }
