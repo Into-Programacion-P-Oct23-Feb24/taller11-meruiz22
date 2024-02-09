@@ -23,7 +23,7 @@ public class Problema4 {
         String cedula;
         boolean bandera = true;
         int i;
-        int s;
+        int P;
         System.out.print("Escriba el nombre del cliente:");
         nombre = entrada.nextLine();
         System.out.print("Escriba la cedula del cliente:");
@@ -42,8 +42,8 @@ public class Problema4 {
             }
             System.out.println("Si desea salir digite 0 "
                     + "caso contrario digite otro numero");
-            s = entrada.nextInt();
-            if (s == 0) {
+            P = entrada.nextInt();
+            if (P == 0) {
                 bandera = false;
 
             }

@@ -11,14 +11,15 @@ package problemas;
  */
 public class Problema6 {
 
-    private static void method() {
+    public static void main(String[] args) {
 
         int[] informacion = {1, 2, 3, 10, 20, 30, 100, 200, 300};
         double media;
         double desviacionEstandar;
         media = obtenerMediaAritmetica(informacion);
         desviacionEstandar = obtenerDesviacionEstandar(informacion, media);
-        System.out.printf("Media aritmetica: %.2f\nDesviacion estandar: %.2f\n",
+        System.out.printf("Media aritmetica: %.2f\nDesviacion estandar: "
+                + "%.2f\n",
                 media,
                 desviacionEstandar);
     }
